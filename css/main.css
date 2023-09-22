@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(128, 0, 128,0.2);
+}
+.about{
+    width:70% ;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+label{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.forms-group{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+}
+.forms-control{
+    width: 75%;
+    padding: 13px 5px;
+    border-radius: 15px;
+}
+.btn{
+    width: 15%;
+    padding:10px 30px ;
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.tassk{
+    font-size: 40px;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about1{
+    width: 47%;
+    margin-left: 375px;
+}
+.about1 .row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(212, 123, 253, 0.861);
+    border-radius: 30px;
+    margin-bottom: 25px;
+
+
+}
+.row1 .info{
+    width: 65%;
+}
+
+
+
+.row1 .item-btn button{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.row1 .item-btn .button{
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.item-btn .completed p {
+    text-decoration: line-through;
+    color: black;
+
+}
+
+@media (max-width: 950px ){
+    .about{
+        width:90% ;
+    }
+    label{
+        font-size: 45px;
+    }
+    .forms-group{
+        width: 95%;
+    }
+    .forms-control {
+        padding: 19px 16px;
+    }
+    .btn{
+        padding:20px 5px ;}
+    
+        .tassk{
+            margin-top: 20px;
+        }
+        .about1 {
+            width: 60%;
+            margin-left: 186px;
+        }
+
+    }
+
+
+
+@media (max-width: 740px ){
+    .about{
+        width:100% ;
+    }
+    label{
+        font-size: 50px;
+    }
+    .forms-group{
+        width: 100%;
+    }
+    .forms-control {
+        padding: 20px 20px;
+    }
+    .tassk{
+        margin-top: 15px;
+    }
+    .about1 {
+        width: 60%;
+        margin-left: 100px;
+    }
+    .about1 {
+        width: 75%;
+        margin-left: 64px;
+    }
+
+}
+@media (max-width: 600px ){
+    .about{
+        width:100% ;
+    }
+    label{
+        font-size: 23px;
+    }
+    .forms-control{
+        width: 65%;
+       
+    }
+    .btn {
+        padding: 12px 8px;
+    }
+    .about1 {
+        width: 100%;
+        margin-left: 0
+    }
+    .row1 .info{
+        width: 52%;
+    }
+    
+    
+    
+    .row1 .item-btn button{
+        font-size: 17px;
+       
+    }
+    .row1 .item-btn button {
+        font-size: 17px;
+       
+    }
+
+}
+
+
+
